@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <h1>Blog Posts</h1>
+      <h1>Posts</h1>
       {/* Render error message if there's an error */}
       {error ? (
         <div>Error: {error}</div>
