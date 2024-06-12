@@ -42,14 +42,15 @@ const App = () => {
         <div>Error: {error}</div>
       ) : (
         // Render the list of posts if there's no error
-        <ul>
+      //switched the <ul> to <ol> 
+       <ol> 
           {posts.map(post => (
             <li key={post.id}>
               <h2>{post.title}</h2>
               <p>{post.body}</p>
             </li>
           ))}
-        </ul>
+        </ol>
       )}
     </div>
   );
